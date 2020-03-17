@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:ignore="MissingDefaultResource">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/double_general_margin"
+            android:background="@color/white">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/head_card_high"
+                android:layout_marginTop="@dimen/general_margin"
+                android:layout_marginBottom="@dimen/general_margin"
+                app:cardBackgroundColor="@color/dark_white"
+                app:cardCornerRadius="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView0"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_margin="@dimen/general_margin"
+                    android:gravity="center"
+                    android:text="@string/amount"
+                    android:textSize="@dimen/size_title_m"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/general_margin"
+                    android:gravity="left|center"
+                    android:textColor="@color/light_blue" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView0"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/head_card_high"
+                android:layout_marginTop="@dimen/general_margin"
+                android:layout_marginBottom="@dimen/general_margin"
+                app:cardBackgroundColor="@color/dark_white"
+                app:cardCornerRadius="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_margin="@dimen/general_margin"
+                    android:gravity="center"
+                    android:text="@string/credit_card"
+                    android:textSize="@dimen/size_title_m"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/credit_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/general_margin"
+                    android:gravity="left|center"
+                    android:textColor="@color/light_blue" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/head_card_high"
+                android:layout_marginTop="@dimen/general_margin"
+                android:layout_marginBottom="@dimen/general_margin"
+                app:cardBackgroundColor="@color/dark_white"
+                app:cardCornerRadius="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="9dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_margin="@dimen/general_margin"
+                    android:gravity="center"
+                    android:text="@string/bank"
+                    android:textSize="@dimen/size_title_m"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/bank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/general_margin"
+                    android:gravity="left|center"
+                    android:textColor="@color/light_blue" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/head_card_high"
+                android:layout_marginTop="@dimen/general_margin"
+                android:layout_marginBottom="@dimen/general_margin"
+                app:cardBackgroundColor="@color/dark_white"
+                app:cardCornerRadius="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_margin="@dimen/general_margin"
+                    android:gravity="center"
+                    android:text="@string/installments"
+                    android:textSize="@dimen/size_title_m"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/installments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/general_margin"
+                    android:gravity="left|center"
+                    android:textColor="@color/light_blue" />
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnFloating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/triple_general_margin"
+        app:backgroundTint="@color/success"
+        app:rippleColor="@color/white"
+        app:srcCompat="@drawable/ic_check"
+        app:tint="@color/white" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

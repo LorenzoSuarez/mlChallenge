@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">mlChallenge</string>
+
+    <string name="public_key">444a9ef5-8a6b-429f-abdf-587639155d88</string>
+
+    <string name="error_excessive_amount">La cantidad ingresada excede la permitida</string>
+    <string name="error_bak">La tarjeta seleccionada no tiene un banco asociado</string>
+    <string name="error_amount">Monto invalido</string>
+
+    <string name="enter_amount">Ingrese monto</string>
+    <string name="unexpected_error">Error inesperado</string>
+    <string name="currency_symbol">$</string>
+    <string name="finish_success">Operación finalizada</string>
+
+    <string name="confirm">CONFIRMAR</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="exit">SALIR</string>
+
+    <!-- TITLES -->
+    <string name="title_amount">Ingrese monto</string>
+    <string name="title_credit_cards">Seleccione tarjeta de crédito</string>
+    <string name="title_banks">Seleccione banco</string>
+    <string name="title_installments">Seleccione número de cuotas</string>
+    <string name="title_resume">Resumen</string>
+
+    <string name="amount">Monto</string>
+    <string name="credit_card">Tarjeta de crédito</string>
+    <string name="bank">Banco</string>
+    <string name="installments">Número de cuotas</string>
+    <string name="resume">Resumen</string>
+
+
+</resources>
